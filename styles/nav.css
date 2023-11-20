@@ -1,0 +1,154 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 50px;
+    background-color: black;
+    color: white;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-top: -10px;
+}
+
+/* Left column styles */
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: left;
+}
+
+.navigation-wrapper > .left-column > .logo {
+    margin-right: 5px;
+    margin-left: 15px;
+    size: 200px;
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 200px;
+    align-content: center;
+}
+
+
+
+.links-wrapper > .nav-link a {
+    font-family: 'Calibri', sans-serif; 
+    color:white;
+}
+
+/* Center column styles */
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 600px;
+    align-items: left;
+    align-content: left;
+}
+
+.navigation-wrapper > .center-column > .explore-text a {
+    color: #f4e180;
+    font-family: 'Calibri', sans-serif;
+    text-decoration: none;
+    
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.links-wrapper > .nav-link {
+    width: 10px;
+    text-align: left;
+}
+
+
+.links-wrapper > .nav-link a {
+    font-family: 'Calibri', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+.links-wrapper > .nav-link > .spark-link {
+    width: 350px;
+    text-align: left;
+    color: grey;
+}
+
+
+.links-wrapper > .nav-link >.spark-link a {
+    font-family: 'Calibri', sans-serif;
+    color: grey;
+    text-decoration: none;
+}
+
+
+/* Right column styles */
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    width: 500px;
+}
+
+.create-btn {
+    background-color: #36383f;
+    padding: 10px 25px;
+    border-radius: 2px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-btn a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    align-items: center;
+}
+
+.search-icon {
+    size: 20px;
+    align-content: center;
+}
+
+
+.login-btn {
+    background-color: #36383f;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 2px;
+    align-content: center;
+    justify-content: center;
+    width: 100px;
+
+}
+
+.login-btn a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    align-items: center;
+}
+
+.signup-btn {
+    background-color: #36383f;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 2px;
+    width: 100px;
+    align-items: center;
+}
+
+.signup-btn a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    align-items: center;
+}

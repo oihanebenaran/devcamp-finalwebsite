@@ -1,0 +1,103 @@
+.main-section {
+    background-image: linear-gradient(to bottom right, #434751, #212329);    
+    color: #11122b;
+    display: flex;
+    width: 100%;
+}
+
+.main-section > .columns-wrapper {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+}
+
+.main-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: left;
+}
+
+
+.main-section > .columns-wrapper > .column > .btn-wrapper {
+    display: flex;
+    align-content: left;
+    padding: 10px;
+}
+
+.main-section > .columns-wrapper > .column > .btn-wrapper > .signup-btn {
+    background-color: #4bce79;
+    color: #111111;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.main-section > .columns-wrapper > .column > .btn-wrapper > .signup-btn a {
+    text-decoration: none;
+    color: 111111;
+}
+
+
+.main-section > .columns-wrapper > .column > .btn-wrapper > .learn-btn {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    width: auto;
+}
+
+.main-section > .columns-wrapper > .column > .btn-wrapper > .learn-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main-section > .columns-wrapper > .column p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-section > .columns-wrapper > .column img {
+    width: 600px;
+    float: right;
+    box-shadow: -12px 28px 31px 9px rgba(0,0,0,0.64);
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color:#191a1d;
+    color: white;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer > .links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    width: 100%;
+    align-content: first baseline;
+}
+
+
+.footer > .links-wrapper > .nav-link {
+    border: 1px solid white;
+    background-color: #36383f;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
